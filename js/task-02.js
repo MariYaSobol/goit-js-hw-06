@@ -13,6 +13,7 @@ for (const ingredient of ingredients) {
   // console.log(liElem);
   const liElem = document.createElement("li");
   liElem.textContent = ingredient;
-  liElem.class = "item";
+  // liElem.class = "item";
+  liElem.classList.add("item");
   container.prepend(liElem);
 }

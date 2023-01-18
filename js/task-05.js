@@ -14,5 +14,5 @@ let nameOutput = document.getElementById("name-output");
 //   }
 // };
 input.addEventListener("input", (event) => {
-  nameOutput.textContent = event.currentTarget.value;
+  nameOutput.textContent = event.currentTarget.value || "Anonymous";
 });

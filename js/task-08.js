@@ -10,7 +10,7 @@ function onLogSubmit(event) {
   if (email.value === "" || password.value === "") {
     return alert("Поле не может оставаться пустым");
   }
-  console.log(`Email:  ${email.value}`);
-  console.log(`Password: ${password.value}`);
+  //
+  console.log({ email: email.value, password: password.value });
   event.currentTarget.reset();
 }
